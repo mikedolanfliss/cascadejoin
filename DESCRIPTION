@@ -1,0 +1,20 @@
+Package: cascadejoin
+Title: Use a table of join patterns to iteratively join two datasets
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Mike",
+           family = "Fliss",
+           role = c("aut", "cre"),
+           email = "mike.dolan.fliss@gmail.com",
+           comment = c(ORCID = "0000-0002-3194-7171"))
+Description: What the package does (one paragraph). Words about cascadejoin go here.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    forcats
