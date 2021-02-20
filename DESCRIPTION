@@ -18,3 +18,5 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     forcats
+URL: https://github.com/mikedolanfliss/cascadejoin
+BugReports: https://github.com/mikedolanfliss/cascadejoin/issues
