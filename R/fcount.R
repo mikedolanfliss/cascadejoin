@@ -7,5 +7,7 @@
 #' @examples
 #' fcount(iris$Species)
 fcount <- function(x) {
-  forcats::fct_count(x, sort = TRUE)
+  new_x = forcats::fct_count(x, sort = TRUE)
+
+  return(new_x)
 }
