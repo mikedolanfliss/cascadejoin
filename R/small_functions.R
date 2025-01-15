@@ -19,3 +19,15 @@ fbind = function(a, b) {
 # https://happygitwithr.com/rstudio-git-github.html
 # https://r-pkgs.org/whole-game.html
 # https://r-pkgs.org/package-within.html
+
+#' Match id variables in a tidyselect string
+#'
+#' @param match_regex string
+#'
+#' @returns A mat
+#' @export
+#'
+#' @examples
+match_id_vars = function(match_regex = "^id_"){
+  matches(match_regex)
+}
