@@ -22,12 +22,13 @@ fbind = function(a, b) {
 
 #' Match id variables in a tidyselect string
 #'
-#' @param match_regex string
+#' @param match_regex character
 #'
-#' @returns A mat
+#' @returns A matches() function in tidyselect format
 #' @export
 #'
 #' @examples
+# ed_tbl |> select(match_id_vars()) |> ...
 match_id_vars = function(match_regex = "^id_"){
   matches(match_regex)
 }
