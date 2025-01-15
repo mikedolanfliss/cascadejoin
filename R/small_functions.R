@@ -28,7 +28,7 @@ fbind = function(a, b) {
 #' @export
 #'
 #' @examples
-# ed_tbl |> select(match_id_vars()) |> ...
+#' ed_tbl |> select(match_id_vars()) |> ...
 match_id_vars = function(match_regex = "^id_"){
   matches(match_regex)
 }
