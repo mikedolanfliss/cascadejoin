@@ -17,6 +17,6 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports: 
-    forcats
+    forcats, tidyverse
 URL: https://github.com/mikedolanfliss/cascadejoin
 BugReports: https://github.com/mikedolanfliss/cascadejoin/issues
