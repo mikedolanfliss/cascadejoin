@@ -2,19 +2,19 @@
 % Please edit documentation in R/small_functions.R
 \name{match_id_vars}
 \alias{match_id_vars}
-\title{Match id variables in a tidyselect string}
+\title{Match id variables in a tidyselect pipeline}
 \usage{
 match_id_vars(match_regex = "^id_")
 }
 \arguments{
-\item{match_regex}{character}
+\item{match_regex}{An optional, alternate id variable regular expression to match on}
 }
 \value{
 A matches() function in tidyselect format
 }
 \description{
-Match id variables in a tidyselect string
+Match id variables in a tidyselect pipeline
 }
 \examples{
-ed_tbl |> select(match_id_vars()) |> ...
+this_tbl |> select(match_id_vars()) |> ...
 }

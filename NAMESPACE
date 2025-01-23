@@ -2,4 +2,10 @@
 
 export(fbind)
 export(fcount)
+export(get_shared_linkage_vars)
+export(inner_join_rename)
+export(linkage_var_compare_tbl)
 export(match_id_vars)
+export(match_linkage_vars)
+export(select_linkage_vars)
+export(tag_link_vars)
